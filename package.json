@@ -1,0 +1,27 @@
+{
+  "name": "takehome-akko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jurence/takehome-akko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jurence/takehome-akko/issues"
+  },
+  "homepage": "https://github.com/Jurence/takehome-akko#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.16",
+    "codeceptjs": "^3.5.12",
+    "playwright": "^1.41.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
