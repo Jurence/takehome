@@ -10,7 +10,8 @@ export = {
     },
     elements: {
         affectedItems: '//a[@href="affected-items"]',
-        selectDevice: '.device__head'
+        selectDevice: '.device__head',
+        deviceIsSelected: '//div[@class="check-status checked"]/*[1]'
     },
 
     async addNewClaim() {
@@ -27,6 +28,8 @@ export = {
         console.log('claim page core elements are verified as visible');
         I.click(this.buttons.affectedItems);
         I.click(this.elements.selectDevice);
+        I.seeElement(this.elements.deviceIsSelected); // Comment this line to see a success in test case and uncomment to see the bug
+
 
         //Due to the inability to proceed with the claim submission because of the disabled CTAs, this was more
         //like a high level insight on how to approach this task.

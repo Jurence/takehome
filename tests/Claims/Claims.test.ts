@@ -4,7 +4,7 @@ const {config, claimsPage} = inject();
 
 Feature('Claims').retry(0);
 
-Scenario('File a Claim', async ({I}) => {
+Scenario('Login and file a Claim', async ({I}) => {
     //Navigating to the webpage URL
     I.openPage(config.urls.claimsWebsite, 'Welcome to AKKO Claims');
     //Logging in with provided test data
