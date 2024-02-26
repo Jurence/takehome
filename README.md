@@ -1,4 +1,4 @@
-# TAKE HOME REVIEWss
+# READ
 
 ## Installation
 * Install npm dependencies `npm install`
