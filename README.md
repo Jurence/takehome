@@ -1,4 +1,4 @@
-# REA
+# RE
 
 ## Installation
 * Install npm dependencies `npm install`
