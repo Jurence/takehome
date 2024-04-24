@@ -11,5 +11,3 @@
 | Run the test | `npx codeceptjs run ./tests/Claims/Claims.test.ts` 
 |
 | Run linter   | `npm run lint:fix`                                 |
-sssssss
-ssssss
