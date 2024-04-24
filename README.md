@@ -12,4 +12,4 @@
 |
 | Run linter   | `npm run lint:fix`                                 |
 sssssss
-sss
+ssss
