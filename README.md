@@ -1,4 +1,4 @@
-# READMEss
+# READMEsss
 
 ## Installation
 * Install npm dependencies `npm install`
